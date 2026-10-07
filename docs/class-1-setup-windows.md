@@ -23,7 +23,9 @@ Steps 1 to 5 have a short video. Watch it first, then follow the written steps.
 
 🎥 **Watch this step (click the picture to play):**
 
-[![Step 1 video](https://img.youtube.com/vi/RnWDKWmaQ8s/hqdefault.jpg)](https://www.youtube.com/watch?v=RnWDKWmaQ8s)
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=RnWDKWmaQ8s"><img src="https://img.youtube.com/vi/RnWDKWmaQ8s/hqdefault.jpg" alt="Step 1 video" width="480"></a>
+</p>
 
 1. Go to <https://github.com/signup>.
 2. Sign up with your email, choose a username and verify your email.
@@ -35,7 +37,9 @@ Steps 1 to 5 have a short video. Watch it first, then follow the written steps.
 
 🎥 **Watch this step (click the picture to play):**
 
-[![Step 2 video](https://img.youtube.com/vi/lv5Vz80PG2w/hqdefault.jpg)](https://www.youtube.com/watch?v=lv5Vz80PG2w)
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=lv5Vz80PG2w"><img src="https://img.youtube.com/vi/lv5Vz80PG2w/hqdefault.jpg" alt="Step 2 video" width="480"></a>
+</p>
 
 1. Go to <https://www.python.org/downloads/> and click **Download Python 3.x**.
 2. Open the downloaded `.exe` file.
@@ -56,7 +60,9 @@ Steps 1 to 5 have a short video. Watch it first, then follow the written steps.
 
 🎥 **Watch this step (click the picture to play):**
 
-[![Step 3 video](https://img.youtube.com/vi/TFF8B8AXkZY/hqdefault.jpg)](https://www.youtube.com/watch?v=TFF8B8AXkZY)
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=TFF8B8AXkZY"><img src="https://img.youtube.com/vi/TFF8B8AXkZY/hqdefault.jpg" alt="Step 3 video" width="480"></a>
+</p>
 
 VS Code is the editor where you will write code.
 
@@ -73,7 +79,9 @@ VS Code is the editor where you will write code.
 
 🎥 **Watch this step (click the picture to play):**
 
-[![Step 4 video](https://img.youtube.com/vi/bk0WhIl7uFU/hqdefault.jpg)](https://www.youtube.com/watch?v=bk0WhIl7uFU)
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=bk0WhIl7uFU"><img src="https://img.youtube.com/vi/bk0WhIl7uFU/hqdefault.jpg" alt="Step 4 video" width="480"></a>
+</p>
 
 GitHub Desktop lets you download and upload code without typing Git commands.
 
@@ -88,7 +96,9 @@ GitHub Desktop lets you download and upload code without typing Git commands.
 
 🎥 **Watch this step (click the picture to play):**
 
-[![Step 5 video](https://img.youtube.com/vi/hL9fCjjwthE/hqdefault.jpg)](https://www.youtube.com/watch?v=hL9fCjjwthE)
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=hL9fCjjwthE"><img src="https://img.youtube.com/vi/hL9fCjjwthE/hqdefault.jpg" alt="Step 5 video" width="480"></a>
+</p>
 
 You will make your **own copy** (a *fork*) of the course repo. Your work goes into your copy, and you can pull updates from the original.
 
