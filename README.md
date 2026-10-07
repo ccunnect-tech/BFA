@@ -20,7 +20,7 @@ Every student is expected to complete the tasks. Doing the work is how you learn
 
 ## Before you begin
 
-Finish the setup for your computer **before the first live class**. It takes about 30 to 45 minutes.
+Finish the setup for your computer **before the first live class**. It takes about 35 to 50 minutes.
 
 | Your computer | Setup guide |
 |---------------|-------------|

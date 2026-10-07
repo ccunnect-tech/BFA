@@ -3,7 +3,7 @@
 Complete this guide **before** the live class.
 Using a Mac? Go to the [macOS setup guide](class-1-setup-mac.md).
 
-**Time needed:** 30 to 45 minutes
+**Time needed:** 35 to 50 minutes
 
 **Checklist**
 
@@ -12,10 +12,11 @@ Using a Mac? Go to the [macOS setup guide](class-1-setup-mac.md).
 - [ ] 3. Install VS Code
 - [ ] 4. Install GitHub Desktop
 - [ ] 5. Get the course repository
-- [ ] 6. Open it in VS Code and verify your setup
+- [ ] 6. Install Node.js and npm
+- [ ] 7. Open it in VS Code and verify your setup
 
 If you get stuck, jump to [Troubleshooting](#troubleshooting).
-Steps 1 to 5 have a short video. Watch it first, then follow the written steps.
+Steps 1 to 6 have a short video. Watch it first, then follow the written steps.
 
 ---
 
@@ -113,7 +114,29 @@ You will make your **own copy** (a *fork*) of the course repo. Your work goes in
 
 ---
 
-## 6. Open it in VS Code and verify your setup
+## 6. Install Node.js and npm
+
+🎥 **Watch this step (click the picture to play):**
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=Iqj8bUJweiU"><img src="https://img.youtube.com/vi/Iqj8bUJweiU/hqdefault.jpg" alt="Step 6 video" width="480"></a>
+</p>
+
+Node.js lets you run JavaScript on your computer. You will use it with React in later classes. `npm` is installed together with Node.js.
+
+1. Go to <https://nodejs.org/> and click the **LTS** download button (not "Current").
+2. Run the downloaded `.msi` file and follow the installer with the default options. Keep **Add to PATH** ticked.
+3. **Close and reopen** VS Code and Command Prompt so they find the new install.
+4. Check the install in Command Prompt:
+   ```
+   node --version
+   npm --version
+   ```
+   Both should print a version number like `v22.x.x` and `10.x.x`.
+
+---
+
+## 7. Open it in VS Code and verify your setup
 
 1. In GitHub Desktop, click **Open in Visual Studio Code** (or press `Ctrl+Shift+A`).
    If you don't see this button, in VS Code use **File → Open Folder…** and select the cloned folder.
@@ -124,14 +147,24 @@ You will make your **own copy** (a *fork*) of the course repo. Your work goes in
    ```
    python check_setup.py
    ```
-6. You should see exactly this (your version number may differ):
+6. You should see a checklist like this (version numbers will differ):
    ```
-   Python version: 3.x.x
+   Course setup doctor (...)
+   --------------------------------------------------
+   ✅ Python 3.x.x
+   ✅ Visual Studio Code installed
+   ✅ VS Code Python extension installed
+   ✅ GitHub Desktop installed
+   ✅ git version 2.x.x
+   ✅ Node.js v22.x.x
+   ✅ npm 10.x.x
+   --------------------------------------------------
    Setup complete! You are ready for Class 1.
    ```
+   A ✅ means good. A ⚠️ is optional (for example, Git in the terminal). Any ❌ line must be fixed, and the message tells you which step to redo.
 7. If you see an error instead, check [Troubleshooting](#troubleshooting) and try again.
 
-**Take a screenshot of this output and send it to the course group** so we know you are ready. All good after that.
+**Take a screenshot of this whole output and send it to the course group** so we know you are ready. All good after that.
 
 ---
 
@@ -148,6 +181,12 @@ You will make your **own copy** (a *fork*) of the course repo. Your work goes in
 ### GitHub Desktop doesn't show my fork
 - Make sure you completed the fork in step 5.2 and are signed in to the same account.
 - In the clone window, click the refresh icon next to the repository list.
+
+### `node` or `npm` is "not recognized"
+- Close VS Code and Command Prompt completely and open them again.
+- If it still fails, re-run the Node.js installer and make sure **Add to PATH** is ticked.
+### `npm` fails with "running scripts is disabled on this system"
+- Open **PowerShell** and run `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`, then press `Y`. Reopen VS Code.
 
 ### VS Code doesn't show the Python version / "Select Interpreter"
 - Press `Ctrl+Shift+P`, type **Python: Select Interpreter**, and pick the Python 3 version you installed.
