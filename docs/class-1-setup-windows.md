@@ -103,7 +103,7 @@ GitHub Desktop lets you download and upload code without typing Git commands.
 
 You will make your **own copy** (a *fork*) of the course repo. Your work goes into your copy, and you can pull updates from the original.
 
-1. Open the course repository in your browser: `[ADD COURSE REPO URL HERE]`
+1. Open the course repository in your browser: <https://github.com/ccunnect-tech/BFA>
 2. Click **Fork** (top right), then **Create fork**.
 3. Open **GitHub Desktop**.
 4. Go to **File → Clone repository…**
