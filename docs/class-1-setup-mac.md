@@ -15,10 +15,15 @@ Using Windows? Go to the [Windows setup guide](class-1-setup-windows.md).
 - [ ] 6. Open it in VS Code and verify your setup
 
 If you get stuck, jump to [Troubleshooting](#troubleshooting).
+Steps 1 to 5 have a short video. Watch it first, then follow the written steps.
 
 ---
 
 ## 1. Create a GitHub account
+
+🎥 **Watch this step (click the picture to play):**
+
+[![Step 1 video](https://img.youtube.com/vi/RnWDKWmaQ8s/hqdefault.jpg)](https://www.youtube.com/watch?v=RnWDKWmaQ8s)
 
 1. Go to <https://github.com/signup>.
 2. Sign up with your email, choose a username and verify your email.
@@ -27,6 +32,10 @@ If you get stuck, jump to [Troubleshooting](#troubleshooting).
 ---
 
 ## 2. Install Python
+
+🎥 **Watch this step (click the picture to play):**
+
+[![Step 2 video](https://img.youtube.com/vi/Gr1PL2eApBU/hqdefault.jpg)](https://www.youtube.com/watch?v=Gr1PL2eApBU)
 
 1. Go to <https://www.python.org/downloads/> and click the yellow **Download Python 3.x** button.
 2. Open the downloaded `.pkg` file and follow the installer with the default options.
@@ -43,6 +52,10 @@ If you get stuck, jump to [Troubleshooting](#troubleshooting).
 
 ## 3. Install VS Code
 
+🎥 **Watch this step (click the picture to play):**
+
+[![Step 3 video](https://img.youtube.com/vi/mT_I9JQd8Vs/hqdefault.jpg)](https://www.youtube.com/watch?v=mT_I9JQd8Vs)
+
 VS Code is the editor where you will write code.
 
 1. Go to <https://code.visualstudio.com/> and download the Mac version.
@@ -56,6 +69,10 @@ VS Code is the editor where you will write code.
 
 ## 4. Install GitHub Desktop
 
+🎥 **Watch this step (click the picture to play):**
+
+[![Step 4 video](https://img.youtube.com/vi/FCSzeI8eTEU/hqdefault.jpg)](https://www.youtube.com/watch?v=FCSzeI8eTEU)
+
 GitHub Desktop lets you download and upload code without typing Git commands.
 
 1. Go to <https://desktop.github.com/> and download the Mac version.
@@ -66,6 +83,10 @@ GitHub Desktop lets you download and upload code without typing Git commands.
 ---
 
 ## 5. Get the course repository
+
+🎥 **Watch this step (click the picture to play):**
+
+[![Step 5 video](https://img.youtube.com/vi/hL9fCjjwthE/hqdefault.jpg)](https://www.youtube.com/watch?v=hL9fCjjwthE)
 
 You will make your **own copy** (a *fork*) of the course repo. Your work goes into your copy, and you can pull updates from the original.
 
@@ -85,18 +106,20 @@ You will make your **own copy** (a *fork*) of the course repo. Your work goes in
 1. In GitHub Desktop, click **Open in Visual Studio Code** (or press `Cmd+Shift+A`).
    If you don't see this button, in VS Code use **File → Open Folder…** and select the cloned folder.
 2. If VS Code asks *"Do you trust the authors of this folder?"*, click **Yes, I trust the authors**.
-3. Open the built-in terminal: **Terminal → New Terminal** (or `` Ctrl+` ``).
-4. Run the check script:
-   ```bash
+3. Look at the **Explorer** panel on the left. You should see a file called `check_setup.py`. This is the file you will run.
+4. Open the built-in terminal: **Terminal → New Terminal** (or `` Ctrl+` ``). A panel opens at the bottom of VS Code.
+5. Type this command in the terminal and press **Enter**:
+   ```
    python3 check_setup.py
    ```
-5. You should see:
+6. You should see exactly this (your version number may differ):
    ```
    Python version: 3.x.x
    Setup complete! You are ready for Class 1.
    ```
+7. If you see an error instead, check [Troubleshooting](#troubleshooting) and try again.
 
-**Send a screenshot of this output to the course group** so we know you are ready.
+**Take a screenshot of this output and send it to the course group** so we know you are ready. All good after that.
 
 ---
 
