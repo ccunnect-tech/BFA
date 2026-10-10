@@ -24,8 +24,8 @@ Finish the setup for your computer **before the first live class**. It takes abo
 
 | Your computer | Setup guide |
 |---------------|-------------|
-| 🍎 **Mac** | [macOS setup instructions](docs/class-1-setup-mac.md) |
-| 🪟 **Windows** | [Windows setup instructions](docs/class-1-setup-windows.md) |
+| 🍎 **Mac** | [macOS setup instructions](class-1/docs/class-1-setup-mac.md) |
+| 🪟 **Windows** | [Windows setup instructions](class-1/docs/class-1-setup-windows.md) |
 
 At the end of the guide you will run a small check to confirm everything works, and send a screenshot to the course group.
 
@@ -39,10 +39,10 @@ At the end of the guide you will run a small check to confirm everything works, 
 
 ## Getting help
 
-1. Check the **Troubleshooting** section at the bottom of your setup guide first: [macOS](docs/class-1-setup-mac.md#troubleshooting) or [Windows](docs/class-1-setup-windows.md#troubleshooting).
+1. Check the **Troubleshooting** section at the bottom of your setup guide first: [macOS](class-1/docs/class-1-setup-mac.md#troubleshooting) or [Windows](class-1/docs/class-1-setup-windows.md#troubleshooting).
 2. Ask in the course group.
 3. When you ask, include your operating system, what you did, and the **full** error message (copy-paste or screenshot).
 
 ---
 
-Ready? Start with the setup guide for your computer: **[macOS](docs/class-1-setup-mac.md)** or **[Windows](docs/class-1-setup-windows.md)**.
+Ready? Start with the setup guide for your computer: **[macOS](class-1/docs/class-1-setup-mac.md)** or **[Windows](class-1/docs/class-1-setup-windows.md)**.
