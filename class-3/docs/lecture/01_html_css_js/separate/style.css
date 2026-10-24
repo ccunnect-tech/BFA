@@ -1,0 +1,18 @@
+/* style.css - CSS: the look (paint and interior) */
+/* It says HOW things look. Delete the link in index.html and this all disappears. */
+body {
+  font-family: Arial, sans-serif;
+  background: lightyellow;
+  text-align: center;
+  margin-top: 60px;
+}
+
+h1 {
+  color: crimson;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  cursor: pointer;
+}

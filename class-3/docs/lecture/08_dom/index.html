@@ -1,0 +1,28 @@
+<!-- index.html - the DOM demo page. The JavaScript is in app.js. -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>DOM demo</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 40px; }
+      .item { padding: 6px; }
+      .highlight { background: gold; }   /* app.js adds and removes this class */
+    </style>
+  </head>
+  <body>
+    <h1 id="title">DOM demo</h1>
+    <p id="info">Open the Console and read what app.js prints.</p>
+
+    <ul>
+      <li class="item">Apple</li>
+      <li class="item">Banana</li>
+      <li class="item">Mango</li>
+    </ul>
+
+    <button id="changeBtn">Change the title</button>
+    <button id="highlightBtn">Highlight the items</button>
+
+    <script src="app.js"></script>
+  </body>
+</html>

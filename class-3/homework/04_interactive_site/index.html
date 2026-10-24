@@ -1,0 +1,50 @@
+<!--
+Homework 4: A small interactive site
+------------------------------------------------------------
+TOPICS: HTML, CSS, JavaScript in separate files, the DOM, events
+
+PROBLEM
+Build a small site about anything you like: your hobby, your city, a favourite
+food, a study plan. Keep it SIMPLE. We are checking that it works, not how big
+it is. Three files: index.html, style.css, script.js (already linked below).
+
+YOUR SITE NEEDS (all in the same page)
+  1. A heading and a short paragraph about your topic.
+  2. A "Change title" button that changes the heading text.
+  3. A counter: a button that adds 1 to a number shown on the page each click.
+  4. A dark mode button that switches a CSS class on the body
+     (document.body.classList.toggle("dark")).
+  5. A text input and a "Greet me" button that shows "Hello, <name>!" in a
+     paragraph (input.value gives the text). If the input is empty, show
+     "Please type your name".
+  6. style.css: a few rules only (a font, colours, some spacing) plus a
+     .dark class with different colours.
+
+STRETCH (only if you want more)
+  - A to-do list: type text, click Add, and the text appears in a list.
+
+OPEN IT
+  Mac:      open index.html        (or double-click the file)
+  Windows:  start index.html       (or double-click the file)
+  Open DevTools (Console) and make sure there are no red errors.
+
+HINTS
+  document.getElementById("id")   finds an element
+  element.textContent = "..."     changes its text
+  element.addEventListener("click", () => { ... })   runs code on a click
+  input.value                     the text typed in an input box
+------------------------------------------------------------
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My site</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Write your HTML below this line -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

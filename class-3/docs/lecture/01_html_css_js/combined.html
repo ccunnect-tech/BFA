@@ -1,0 +1,45 @@
+<!-- combined.html - the SAME page, with everything inside ONE file -->
+<!-- HTML in the body, CSS in <style>, JavaScript in <script>. It works the same. -->
+<!-- Fine for small demos. Real projects split into separate files (see the separate folder). -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My first page</title>
+
+    <style>
+      /* CSS: the look */
+      body {
+        font-family: Arial, sans-serif;
+        background: lightyellow;
+        text-align: center;
+        margin-top: 60px;
+      }
+      h1 {
+        color: crimson;
+      }
+      button {
+        font-size: 18px;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- HTML: the structure -->
+    <h1 id="title">Hello, BFA</h1>
+    <p>This page has structure, a look and behaviour.</p>
+    <button id="btn">Click me</button>
+
+    <script>
+      // JavaScript: the behaviour
+      const title = document.querySelector("#title");
+      const btn = document.querySelector("#btn");
+
+      btn.addEventListener("click", () => {
+        title.textContent = "You clicked the button!";
+        console.log("button clicked");
+      });
+    </script>
+  </body>
+</html>
