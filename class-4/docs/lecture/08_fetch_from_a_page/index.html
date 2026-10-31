@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tasks from my API</title>
+  </head>
+  <body>
+    <h1>Tasks from my API</h1>
+    <button id="load">Load tasks</button>
+    <ul id="list"></ul>
+
+    <input id="title" placeholder="New task" />
+    <button id="add">Add task</button>
+
+    <script>
+      const API = "http://127.0.0.1:8000";
+      const list = document.getElementById("list");
+
+      async function loadTasks() {
+        const response = await fetch(API + "/tasks");
+        const tasks = await response.json();
+        list.innerHTML = "";
+        for (const task of tasks) {
+          const li = document.createElement("li");
+          li.textContent = task.title + (task.done ? " (done)" : "");
+          list.appendChild(li);
+        }
+      }
+
+      async function addTask() {
+        const input = document.getElementById("title");
+        await fetch(API + "/tasks", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ title: input.value }),
+        });
+        input.value = "";
+        loadTasks();
+      }
+
+      document.getElementById("load").addEventListener("click", loadTasks);
+      document.getElementById("add").addEventListener("click", addTask);
+    </script>
+  </body>
+</html>

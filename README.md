@@ -63,6 +63,22 @@ No extra setup is needed. Chrome (or Edge) and the Node.js from Class 1 are enou
 
 Run a JavaScript file with `node file.js`. For the Console tasks, paste your code into the Console tab in DevTools.
 
+## Class 4: Backend with FastAPI
+
+**What we cover:** the big picture (frontend, backend, API, JSON), installing FastAPI, building simple routes (values in the URL, `POST`, a to-do API with list, add and delete), the free `/docs` page, a web page that calls your API, and how we will use AI to build the app.
+
+You need Python from Class 1. We install FastAPI in class (`pip install "fastapi[standard]"`).
+
+**What is in the `class-4` folder**
+
+| Folder | What it is |
+|--------|------------|
+| [`docs/`](class-4/docs) | Class slides, and the [`lecture/`](class-4/docs/lecture) notes and code we show in class (start at its README) |
+| [`live-practice/`](class-4/live-practice) | Three API tasks we do together in class. Each file has the problem and the expected output in comments. |
+| [`homework/`](class-4/homework) | Three tasks to finish after class: an even numbers API, a temperature API and a notes API. Push your work to your GitHub repo. |
+
+Install FastAPI once with `pip install -r class-4/requirements.txt` (Mac: `pip3`). Run an API file with `fastapi dev file.py`, then test it at `http://127.0.0.1:8000/docs`.
+
 ---
 
 ## What you need
